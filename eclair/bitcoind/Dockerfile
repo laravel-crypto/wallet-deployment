@@ -34,12 +34,11 @@ RUN make
 RUN make install # optional
 
 # Eclair
-RUN apt-get install -y default-jre
-RUN mkdir /eclair
-ADD eclair-node-0.2-alpha5-a97fa39.jar /eclair/
+# RUN apt-get install -y default-jre
+# RUN mkdir /eclair
+# ADD eclair-node-0.2-alpha5-a97fa39.jar /eclair/
 
 # Launch bitcoind in regtest mode
-RUN mkdir lol4
 ADD bitcoin.conf /root/.bitcoin/bitcoin.conf
 CMD bitcoind
 
