@@ -14,7 +14,9 @@
 
 https://github.com/ACINQ/eclair/releases
 
-#### Put eclair.conf file in default directory ~/.eclair/eclair.conf
+#### Put eclair.conf file in default directory:
+
+~/.eclair/eclair.conf
 
 #### Run eclair lightning node with GUI
 
